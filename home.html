@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>Monottti Planejados</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="data:image/png;base64,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" id="nav_logo"> </i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="home.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cliente.html">Area do Cliente</a>
+                </li>
+            </ul>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="home.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cliente.html">Area do Cliente</a>
+                </li>
+            </ul>
+
+         
+        </div>
+    </header>
+    
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Qualidade em 
+                    <Span> Primeiro Lugar</Span>
+
+                </h1>
+                <p class="descripion">
+                    Da nossa fabrica para a sua Casa!!
+                    Celebre conosco o inicio de mais um SONHO
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Peça um Orçameno
+                    </a>
+
+                  
+
+                </div>
+                <div class="social-media-buttons">
+                    <a href=""> <!-- colocar o link do whats-->                       
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href=""> <!-- colocar o link do whats-->                       
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href=""> <!-- colocar o link do whats-->                       
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                        
+                </div>
+            </div>
+            <div id="banner">
+                <img src="src/images/minoti.jpg" alt="">
+
+            </div>
+        </section>
+            
+    </main>
+
+    <script src="src/javascript/script.js"></script>
+
+    
+
+</body>
+</html>

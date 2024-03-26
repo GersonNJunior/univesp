@@ -49,6 +49,9 @@ header {
     #navbar .btn-default{
         display: none;
     }
+    .botao {
+        display: flex;
+    }
     #mobile_btn {
         display: block;
         border:  none;

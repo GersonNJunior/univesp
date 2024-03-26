@@ -137,4 +137,41 @@ p2 {
         text-align: center;
         align-items: center;
     }
+    #botao {
+        min-height: 1%;
+        top: 75%;
+        left: 55%;
+    }
+
+ 
+}
+@media screen and (max-width: 755px){
+    
+    #botao {
+        min-height: 1%;
+        top: 81%;
+        left: 60%;
+    }
+
+ 
+}
+@media screen and (max-width: 660px){
+    
+    #botao {
+        min-height: 1%;
+        top: 85%;
+        left: 60%;
+    }
+
+ 
+}
+@media screen and (max-width: 600px){
+    
+    #botao {
+        min-height: 1%;
+        top: 89%;
+        left: 60%;
+    }
+
+ 
 }

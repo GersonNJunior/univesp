@@ -4,7 +4,7 @@ header {
 }
 
 #navbar {
-    width: 70%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,6 +21,9 @@ header {
     display: flex;
     list-style: none;
     gap: 48px;
+    font-size: 130%;
+    font-style: italic;
+    
 
 }
 

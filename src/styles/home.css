@@ -5,21 +5,27 @@
 
 }
 p { 
-    color: rgb(0, 0, 0);
-    font-size: 0.5; 
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-style: italic;
+    font-style: bold;
+    text-shadow: 2px 4px 5px #000000;
 }
 p1 { 
-    color: rgb(0, 0, 0);
-    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-style: italic;
     font-style: bold;
+    text-shadow: 2px 4px 5px #000000;
 
         
 }
 p2 { 
-    color: rgb(0, 0, 0);
-    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
     font-style: italic;
     font-style: bold;
+    text-shadow: 2px 4px 5px #000000;
 
         
 }
@@ -36,31 +42,37 @@ p2 {
     display:flex;
     flex-direction:row;
     gap: 28px;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 #cta .title {
     font-size: 4rem;
-    color: #1d1d1d;
+    color: #ffffff;
+    font-style: italic;
+    text-shadow: 2px 4px 5px #000000;
     
 
 }
 #cta .sobre {
     font-size: 4rem;
     color: #1d1d1d;
+    margin-top: -23%;
    
     
 
 }
 #cta .title span {
-    color: #916741;
+    color: #ee95e2;
+    text-shadow: 2px 4px 5px #000000;
 }
 #cta .sobre span {
-    color: #916741;
+    color: #202020;
     text-shadow: 2px 4px 5px #eee;
 }
 #cta.description {
-    font-size: 1.2rem;
+    color: #fff;
+    font-size: 4rem;
+
 }
 #cta.description_sobre {
     font-size: 1.2rem;
@@ -68,12 +80,20 @@ p2 {
 
 #cta_buttons {
     display: flex;
-    gap: 24px
+    gap: 24px;
+    
+    
+
 
 }
 #cta_buttons a {
     text-decoration: none;
     color: #000000;
+    font-style: italic;
+    text-shadow: 2px 4px 5px #6d6370;
+    width: 90%;
+    background-color: #cdbcce;
+    
 }
 
 #phone_button {
@@ -85,20 +105,21 @@ p2 {
     font-weight: 500;
     box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
     border-radius: 12px;
-    ;
 }
  /* banner pagina inicial*/
 #banner {
     display: flex;
     align-items: start;
     justify-content: right;
-    width: 100%;
+    width: 90%;
+  
 
 }
 #banner img {
     height: 50%;
     width: 80%;
     border-radius: 12%;
+
 
 }
  /* fim do banner pagina inicial */
@@ -108,13 +129,17 @@ p2 {
     display:flex;
     align-items: start;
     justify-content:center;
-    width: 40%;
+    width: 30%;
+    height: 104%;
+    margin-top: -4%;
+    
 
 }
 #banner_sobre img {
-    height: 110%;
+    height: 100%;
     width: 100%;
     border-radius: 12%;
+    border-style:outset ;
 
 }
  /* fim banner sobre*/
@@ -139,32 +164,13 @@ p2 {
     }
     #botao {
         min-height: 1%;
-        top: 75%;
+        top: 82%;
         left: 55%;
     }
 
  
 }
-@media screen and (max-width: 755px){
-    
-    #botao {
-        min-height: 1%;
-        top: 81%;
-        left: 60%;
-    }
 
- 
-}
-@media screen and (max-width: 660px){
-    
-    #botao {
-        min-height: 1%;
-        top: 85%;
-        left: 60%;
-    }
-
- 
-}
 @media screen and (max-width: 600px){
     
     #botao {

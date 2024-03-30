@@ -1,18 +1,24 @@
 header {
     width: 100%;
-    padding: 30px 2%;
+    padding: 5px 10%;
+    
+    
 }
 
 #navbar {
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
+
 }
 
 #nav_logo {
     width: 130px;
     border-radius: 12%;
+    
+
     
 }
 
@@ -46,10 +52,25 @@ header {
 #mobile_menu {
     display: none;
 }
+#whats {
+    color: rgb(32, 209, 62);
+}
+#face {
+    color: rgb(22, 73, 240);
+}
+#insta {
+    color: rgb(221, 27, 195);
+}
 
 @media screen and (max-width: 1170px) {
+    #whats,#insta,#face {
+        display: none;
+    }
     #nav_list,
     #navbar .btn-default{
+        display: none;
+    }
+    #banner_sobre img {
         display: none;
     }
     .botao {
@@ -84,3 +105,8 @@ header {
     }
 
 }
+
+
+
+
+

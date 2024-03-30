@@ -9,11 +9,14 @@
 
 
 body {
-    background-image: url('https://scontent.faqa4-1.fna.fbcdn.net/v/t39.30808-6/301786446_577090864203667_2229888592243412332_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGKfoN417eOSv6y9QxLk2KrKiteed4wVCYqK1553jBUJtyuq1leHZRz7eehk0_FcmiE-ZEBnN1ImzCCRi3pX4lY&_nc_ohc=3XbF0qU0VkIAX9ZXqPx&_nc_ht=scontent.faqa4-1.fna&oh=00_AfDxXeXjh1xNq5Cxj_noN48N5mpRhXgpNYYR_ed5b_2LMQ&oe=6607819F');
-
-    background-size:cover;
-    background-color: #9c9b9b;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(https://i.postimg.cc/Wp8LcrDF/fundo2.png);
+    background-size:100%;
+    background-size: cover;
+   
 }
+
 
 section {
     padding: 30px 2%;
